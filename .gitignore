@@ -1,0 +1,7 @@
+.gradle/
+build/
+.idea/
+*.iml
+gradle/wrapper/dists/
+gradle/wrapper/caches/
+local.properties

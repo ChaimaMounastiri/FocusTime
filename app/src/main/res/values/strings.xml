@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">FocusTime</string>
+    <string name="splash_tagline">Stay focused. Learn with calm, clear progress.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="subject_count">Subjects</string>
+    <string name="studied_hours">Focused hours</string>
+    <string name="goal_study_hours">Goal hours</string>
+    <string name="subjects">SUBJECTS</string>
+    <string name="upcoming_tasks">UPCOMING TASKS</string>
+    <string name="completed_tasks">COMPLETED TASKS</string>
+    <string name="recent_study_sessions">RECENT FOCUSTIME</string>
+    <string name="study_sessions_history">FOCUSTIME HISTORY</string>
+    <string name="start_study_session">Start FocusTime</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="add_task">Add Task</string>
+    <string name="add">Add</string>
+    <string name="hours_unit">hr</string>
+    <string name="delete_session">Delete Session</string>
+    
+    <!-- Empty States -->
+    <string name="no_subjects">You don\'t have any subjects.\n Click the + button to add new subject.</string>
+    <string name="no_upcoming_tasks">You don\'t have any upcoming tasks.\n Click the + button in subject screen to add new task.</string>
+    <string name="no_completed_tasks">You don\'t have any completed tasks.\n Click the check box on completion of task.</string>
+    <string name="no_recent_sessions">No FocusTime blocks yet.\n Start FocusTime to track your progress.</string>
+
+    <!-- Dialogs -->
+    <string name="delete_session_title">Delete Session?</string>
+    <string name="delete_session_body">Are you sure, you want to delete this session? Your studied hours will be reduced by this session time. This action can not be undone.</string>
+    <string name="delete_subject_title">Delete Subject?</string>
+    <string name="delete_subject_body">Are you sure you want to delete this subject? All related tasks and FocusTime history will be permanently removed. This action cannot be undone.</string>
+    <string name="delete_task_title">Delete Task?</string>
+    <string name="delete_task_body">Are you sure, you want to delete this task? This action can not be undone.</string>
+    <string name="add_update_subject">Add/Update Subject</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+
+    <!-- Task Screen -->
+    <string name="task_title">Title</string>
+    <string name="description">Description</string>
+    <string name="due_date">Due Date</string>
+    <string name="select_due_date">Select Due Date</string>
+    <string name="priority">Priority</string>
+    <string name="related_to_subject">Related to subject</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="task">Task</string>
+
+    <!-- Session Screen -->
+    <string name="study_sessions">FocusTime</string>
+    <string name="study_session">FocusTime</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="finish">Finish</string>
+    <string name="navigate_back">Navigate Back</string>
+
+    <!-- Priorities -->
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+
+    <!-- Errors & Snackbars -->
+    <string name="enter_subject_name">Please enter subject name.</string>
+    <string name="subject_name_too_short">Subject name is too short.</string>
+    <string name="subject_name_too_long">Subject name is too long.</string>
+    <string name="enter_goal_hours">Please enter your goal hours.</string>
+    <string name="invalid_number">Invalid number.</string>
+    <string name="min_goal_hours">Please set at least 1 hour.</string>
+    <string name="max_goal_hours">Please set a maximum of 1000 hours.</string>
+    <string name="enter_task_title">Please enter task title.</string>
+    <string name="task_title_too_short">Task title is too short.</string>
+    <string name="task_title_too_long">Task title is too long.</string>
+    
+    <string name="task_deleted">Task deleted successfully.</string>
+    <string name="no_task_to_delete">No Task to delete.</string>
+    <string name="error_delete_task">Couldn\'t delete task.</string>
+    <string name="error_save_task">Couldn\'t save task.</string>
+    <string name="task_saved">Task Saved Successfully.</string>
+    
+    <string name="subject_updated">Subject updated successfully.</string>
+    <string name="error_update_subject">Couldn\'t update subject.</string>
+    <string name="subject_deleted">Subject deleted successfully.</string>
+    <string name="no_subject_to_delete">No Subject to delete.</string>
+    <string name="error_delete_subject">Couldn\'t delete subject.</string>
+    
+    <string name="saved_in_upcoming">Saved in upcoming tasks.</string>
+    <string name="saved_in_completed">Saved in completed tasks.</string>
+    
+    <string name="session_deleted">Session deleted successfully.</string>
+    <string name="error_delete_session">Couldn\'t delete session.</string>
+    <string name="select_related_subject">Please select the subject for this FocusTime block.</string>
+    <string name="session_too_short">A FocusTime block must be at least 36 seconds.</string>
+    <string name="session_saved">Session saved successfully.</string>
+    <string name="error_save_session">Couldn\'t save session.</string>
+
+    <string name="search_hint">Search subjects and tasks…</string>
+    <string name="insights_title">Today</string>
+    <string name="insight_today_focus">FocusTime today</string>
+    <string name="insight_tasks_done">Tasks completed</string>
+    <string name="insight_upcoming_count">Upcoming tasks</string>
+    <string name="theme_menu">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="subject_saved_toast">Subject saved.</string>
+</resources>
