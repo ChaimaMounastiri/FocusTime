@@ -1,34 +1,64 @@
-# Android App Development Course
+# ⏳ FocusTime – Android Productivity App
 
-Welcome to the Android App Development Course repository. In this course, you'll learn how to build amazing Android application using modern technologies and best practices.
+## 🚀 Overview
 
-## Course Overview
+FocusTime is an Android application designed to help users improve their productivity and manage their time effectively.
+It allows users to organize tasks, track study sessions, and stay focused using a built-in timer.
 
-This course covers a range of topics including:
+---
 
-- **Jetpack Compose with Material 3:** Building stunning, modern user interfaces.
-- **Compose Destination for Navigation:** Simplifying app navigation.
-- **Room with Multiple Entities:** Mastering local data storage.
-- **Dependency Injection with Dagger Hilt:** Creating testable and maintainable code.
-- **Study Session Timer using Android Services:** Handling background tasks effectively.
+## 🎯 Features
 
-## Course Playlist
+* ⏱️ Focus timer (Pomodoro-style sessions)
+* 📚 Manage subjects and study sessions
+* ✅ Task management system
+* 📊 Productivity dashboard
+* 🔔 Notifications and reminders
+* 🎨 Modern UI with Jetpack Compose
 
-🎥 All course videos can be found on the [YouTube Course Playlist](https://youtube.com/playlist?list=PL1b73-6UjePA9ck6zJjMJoq_8TOxBgdsc&si=z0pG20iCs3Q3eKeY).
+---
 
-![Screenshot (162)](https://github.com/CodeInKotLang/StudySmart/assets/110901093/a75366b9-23be-462f-b1b2-f6ad9da43317)
+## 🏗️ Architecture
 
+The application follows **Clean Architecture** with MVVM:
 
-## Contributing
+* **Presentation Layer** → UI (Jetpack Compose)
+* **Domain Layer** → Business logic
+* **Data Layer** → Room Database & Repositories
 
-If you find any issues or would like to contribute to the course content, feel free to create a pull request or open an issue.
+---
 
-## Feedback
+## 🛠️ Technologies Used
 
-I'm always eager to improve this course. If you have any suggestions, questions, or feedback, please don't hesitate to reach out.
+* Kotlin
+* Jetpack Compose
+* Room Database
+* MVVM Architecture
+* Coroutines & Flow
+* Dependency Injection
 
-## Support
+---
 
-If you find the course valuable, consider [buying me a coffee](https://ko-fi.com/mohammadarif) to support the creation of more content.
+## 📂 Project Structure
 
-Happy learning and building amazing Android apps!
+```
+app/
+ ├── data/
+ ├── domain/
+ ├── presentation/
+ └── di/
+```
+
+---
+
+#
+## 👩‍💻 Author
+
+Chaima Monastiri
+Engineering Student in Teleinformatics
+
+---
+
+## 📌 Project Purpose
+
+This project was developed to practice Android development using modern technologies and to build a real-world productivity application.
